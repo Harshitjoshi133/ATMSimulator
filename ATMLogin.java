@@ -86,7 +86,7 @@ public class ATMLogin extends Frame implements ActionListener {
                     }
                 if(p.equals(password)){
                     System.out.print("hello im here");
-                    //new MovieSelection(username);
+                    new ATMMainFrame();
                     setVisible(false);
                 }   
                     
